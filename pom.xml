@@ -10,7 +10,7 @@
 	
 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
-		<sonar.host.url>http://172.31.15.85:9000/</sonar.host.url>
+		<sonar.host.url>http://172.31.0.146:9000/</sonar.host.url>
 
 	</properties>
 	<dependencies>
@@ -61,7 +61,7 @@
                   ], 
                   credentialsId: 'nexus3', 
                   groupId: 'in.javahome', 
-                  nexusUrl: '172.31.13.172:8081', 
+                  nexusUrl: '172.31.0.124:8081', 
                   nexusVersion: 'nexus3', 
                   protocol: 'http', 
                   repository: 'sample-releases', 
@@ -130,7 +130,7 @@
                   ], 
                   credentialsId: 'nexus3', 
                   groupId: 'in.javahome', 
-                  nexusUrl: '172.31.13.172:8081', 
+                  nexusUrl: '172.31.0.124:8081', 
                   nexusVersion: 'nexus3', 
                   protocol: 'http', 
                   repository: 'sample-releases', 
